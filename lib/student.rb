@@ -10,6 +10,8 @@ attr_reader :id
     @name = name
     @grade = grade
   end
-
+  
+  def 
+  
 
 end
