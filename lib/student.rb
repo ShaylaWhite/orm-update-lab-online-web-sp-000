@@ -44,5 +44,6 @@ attr_reader :id
 
 
  def self.create 
+   
  end
 end
