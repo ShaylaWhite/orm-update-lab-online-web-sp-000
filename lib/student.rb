@@ -20,9 +20,9 @@ end
         )
         SQL
     DB[:conn].execute(sql)
-  end
+end
 
- def
+  def self.drop_table
  
 end 
 
