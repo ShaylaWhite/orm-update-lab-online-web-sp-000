@@ -9,7 +9,7 @@ attr_reader :id
     @id = id
     @name = name
     @grade = grade
-end
+  end
   
   def self.create_table
     sql =  <<-SQL
@@ -20,7 +20,7 @@ end
         )
         SQL
     DB[:conn].execute(sql)
- end
+  end
 
   def self.drop_table
     sql = "DROP TABLE IF EXISTS students"
